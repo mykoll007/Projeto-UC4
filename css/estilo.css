@@ -38,7 +38,7 @@ h1 img{
 
 nav{
     min-height: 40px;
-    display: block;
+    display: none;
     text-transform: uppercase;
     font-weight: bold;
     overflow: hidden;
@@ -46,7 +46,7 @@ nav{
     padding-left: 1%;
 }
 
-nav a:link, nav a:visited{
+nav a, nav a:link, nav a:visited #IconMenu:link, #IconMenu:visited{
     text-decoration: none;
     color:white;
     transition: background-color 1s;
@@ -55,9 +55,112 @@ nav a:link, nav a:visited{
     align-items: center;
 }
  
-nav a:hover, nav a:focus{
+nav a:hover, nav a:focus #IconMenu:hover, #IconMenu:focus{
     background-color: orange;
     color: black;
     transition: background-color 1s;
     border-radius: 5%;
+}
+#IconMenu{
+    color: white;
+    cursor: pointer;
+    min-height: 40px;
+    display: block;
+    overflow: hidden;
+    line-height: 40px;
+    padding-left: 1%;
+    font-size: 50px;
+}
+
+/*Rodapé /footer*/
+.rodape{
+    border-top: solid #06632e 5px;
+     background-color: #000;
+    color: #7f7f80;
+    text-align: center;
+    width: 100%;
+}
+
+.rodape p,li{
+    font-size: 16px;
+}
+
+.rodape img{
+    margin: 0 5px;
+}
+
+.rodape-conteudo{
+    padding: 15px;
+    color: #fff
+}
+.rodape-conteudo ul{
+    list-style: none;
+    margin: 0 auto;
+    padding: 10px 0;
+
+}
+
+#logo-rodape{
+     min-width: 146px; 
+    width: 150px;
+    margin: 0 auto;
+}
+
+.menu-rodape a{
+    text-decoration: none;
+    color: #7f7f80;
+}
+
+.menu-rodape a:hover{
+    color: #fff;
+}
+.redes img{
+     min-width: 35px; 
+    width: 35px;
+}
+
+.redes ul{
+    display: flex;
+    text-align: center;
+}
+
+.redes li{
+    width: 15%;
+    padding: 3%;
+}
+
+.assinatura{
+    color: #fff;
+    background-color: #7f7f80;
+    text-align: center;
+    height: auto;
+    padding: 1%;
+}
+
+.assinatura p{
+    margin-top:3%;
+}
+
+/*Regras para o conteúdo*/
+#conteudo{
+    max-width: 95%;
+    margin: auto;
+}
+
+#conteudo article{
+    background-color: white;
+    margin: 15px 0;
+    padding: 1%;
+    box-sizing: grey 1px 1px 5px;
+}
+
+#conteudo h2, #conteudo h3, #conteudo p{
+    padding: 1%;
+}
+
+.titulo{
+    font-size: 1.4em; 
+    color: #ED6D19;
+    text-align: center;
+    text-transform: uppercase;
 }
