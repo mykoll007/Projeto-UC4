@@ -452,6 +452,9 @@ iframe{
     .destaque img{
          margin-top: 80px; 
     }
+    #card-pacote img{
+        height:160px
+}
 }
 
 @media screen and (min-width:850px) {
@@ -499,6 +502,9 @@ iframe{
     #tituloloc{
         margin-top: 70px;
     }
+    #card-pacote img{
+        height:210px
+}
 }
 
 @media screen and (min-width:1000px) {
@@ -513,4 +519,7 @@ iframe{
     #tituloloc{
         margin-top: 70px;
     }
+    #card-pacote img{
+        height:210px
+}
 }
